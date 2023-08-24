@@ -1,0 +1,96 @@
+<style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap");
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: rgb(13, 36, 117);
+            font-family: "Poppins", sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            color: aqua;
+            background-color: rgb(21, 92, 198);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: white;
+            font-size: 1.2rem;
+        }
+        .left{
+            font-size: 2rem;
+            color: blanchedalmond;
+            margin-left: -32px;
+            font-family: myfirstfont;
+            src: url(41.ttf);
+        }
+       
+        .firstsection{
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+        .firstsection > div{
+            width: 30%
+        }
+        .leftsection{
+            font-size: 2rem;
+            color: white;
+        }
+        p{
+            font-size: 20px;
+        }
+        hr{
+            color: white;
+        }
+        .secondsection{
+            font-size: 20px;
+            height: 80vh;
+        }
+        .secondsection .box{
+            background: white;
+            width: 80vh;
+            height: 2px;
+            margin: 56px 0;
+        }
+        .secondsection h1{
+            margin-top: -7.6px;
+        }
+        .secondsection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: wheat;
+            display: flex;
+            margin: 0 100px;
+        }
+        .text-gray{
+            color: gray;
+            font-size: 16px;
+        }
+        .rightsection img{ 
+            color: white;
+            width: 500px;
+        }
+        .purple{
+            color: yellow;
+        }
+        #element{
+            color: yellow;
+        }
+    <style>
